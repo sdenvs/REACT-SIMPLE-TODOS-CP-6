@@ -1,1 +1,22 @@
 /* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+  border-style: solid;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #ff0b37;
+  color: #ff0b37;
+  border-radius: 5px;
+}
+.todo {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
